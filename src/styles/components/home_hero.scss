@@ -1,0 +1,130 @@
+#home_hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    .child {
+      margin: auto;
+
+      h1 {
+        margin-bottom: 30px;
+      }
+      p {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .background {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+#header_bulletin {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .container {
+    max-width: 1470px !important;
+    // background-color: red;
+  }
+  .bulletin_item {
+    border-bottom: 1px solid #70707058;
+    margin-bottom: 50px;
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 35px;
+      text-align: left;
+      color: #0b213e;
+    }
+    .row {
+      margin-top: 30px;
+    }
+    .person {
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: left;
+      color: #0b213e;
+    }
+    .meta {
+      padding-left: 20px;
+      text-align: right;
+      //   border-left: 1px solid #0b213e;
+    }
+    .bulletin_img {
+      width: 100% !important;
+      height: 300px !important;
+      object-fit: cover;
+      margin-top: 20px;
+    }
+    // .line {
+    //   border-left: 1px solid #0b213e;
+    // }
+  }
+  .bulletin_featured_item {
+    .bulletin_img {
+      width: 100% !important;
+      height: 600px !important;
+      object-fit: cover;
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      text-align: left;
+      color: #0b213e;
+      margin-bottom: 30px;
+    }
+    .meta_row {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .person {
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: left;
+      color: #0b213e;
+    }
+    .meta {
+      padding-left: 20px;
+      text-align: right;
+      // border-left: 1px solid #0b213e;
+    }
+  }
+
+  .bulletin__minor_item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #70707058;
+    .bulletin_img {
+      max-width: 100% !important;
+      width: 100px !important;
+      height: 100px !important;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: left;
+      color: #0b213e;
+    }
+  }
+  .section_img {
+    width: 100% !important;
+    // make a square
+    height: 300px;
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+    margin-top: 20px;
+  }
+}

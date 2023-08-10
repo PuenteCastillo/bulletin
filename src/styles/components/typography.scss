@@ -1,0 +1,33 @@
+body {
+  p {
+    font-family: "Poppins", sans-serif;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    color: #838383;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    text-align: left;
+  }
+
+  .theme-btn {
+    background-color: #e51cbe;
+    padding: 10px 14px;
+    border-radius: 8px;
+
+    // font
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: left;
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+}
